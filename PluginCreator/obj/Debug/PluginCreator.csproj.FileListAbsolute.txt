@@ -1,0 +1,10 @@
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\bin\Debug\PluginCreator.exe.config
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\bin\Debug\PluginCreator.exe
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\bin\Debug\PluginCreator.pdb
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\obj\Debug\PluginCreator.Main.resources
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\obj\Debug\PluginCreator.Properties.Resources.resources
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\obj\Debug\PluginCreator.csproj.GenerateResource.cache
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\obj\Debug\PluginCreator.csproj.CoreCompileInputs.cache
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\obj\Debug\PluginCreator.exe
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\obj\Debug\PluginCreator.pdb
+C:\Users\Master\Documents\Visual Studio 2019\Projects\PluginCreator\PluginCreator\obj\Debug\PluginCreator.csprojAssemblyReference.cache
