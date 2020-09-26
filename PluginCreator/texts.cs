@@ -9,7 +9,7 @@ namespace PluginCreator
     class texts
     {
         public static string gradle = @"/*
- * Copyright (c) 2019 Owain van Brakel <https://github.com/Owain94>
+ * Copyright (c) 2020 ImNoOSRS <https://github.com/ImNoOSRS>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -53,7 +53,7 @@ tasks {
     }
 }";
 
-        public static string plugin_file = @"//Created by PluginCreated by ImNo: https://github.com/ImNoOSRS 
+        public static string plugin_file = @"//Created by PluginCreator by ImNo: https://github.com/ImNoOSRS 
 package net.runelite.client.plugins.@@NAME@@;
 %IMPORTSPOT%
 import com.google.common.base.Splitter;
@@ -93,7 +93,7 @@ import java.util.List;
 @PluginDescriptor(
         name = @@@@NAME_TEXT@@@@,
         description = @@@@DESC@@@@,
-        type = PluginType.IMPORTANT
+        type = PluginType.SYSTEM
 )
 @Slf4j
 public class @@NAME@@Plugin extends Plugin {
@@ -156,7 +156,7 @@ public class @@NAME@@Plugin extends Plugin {
 }";
 
         public static string config_file = @"/*
- * Copyright (c) 2018, Andrew EP | ElPinche256 <https://github.com/ElPinche256>
+ * Copyright (c) 2020 ImNoOSRS <https://github.com/ImNoOSRS>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -201,8 +201,7 @@ public interface @@NAME@@Config extends Config {
 }";
 
         public static string overlay_file = @"/*
- * Copyright (c) 2018, Adam <Adam@sigterm.info>
- * Copyright (c) 2018, Cas <https://github.com/casvandongen>
+ * Copyright (c) 2020, ImNoOSRS <https://github.com/ImNoOSRS>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -290,8 +289,7 @@ class @@NAME@@Overlay extends Overlay {
 
         public static string overlay_panel_file = @"/*
 /*
- * Copyright (c) 2018, Adam <Adam@sigterm.info>
- * Copyright (c) 2018, Cas <https://github.com/casvandongen>
+ * Copyright (c) 2020, ImNoOSRS <https://github.com/ImNoOSRS>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -377,8 +375,7 @@ class @@NAME@@OverlayPanel extends OverlayPanel {
 ";
 
         public static string panel_file = @"/*
- * Copyright (c) 2018, Adam <Adam@sigterm.info>
- * Copyright (c) 2018, Cas <https://github.com/casvandongen>
+ * Copyright (c) 2020, ImNoOSRS <https://github.com/ImNoOSRS>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
