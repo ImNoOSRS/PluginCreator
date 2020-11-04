@@ -42,15 +42,20 @@
             this.panel_icon = new System.Windows.Forms.Button();
             this.SidePanel = new System.Windows.Forms.CheckBox();
             this.overlay = new System.Windows.Forms.CheckBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.utils = new System.Windows.Forms.CheckBox();
+            this.config_start_button = new System.Windows.Forms.CheckBox();
+            this.task_system = new System.Windows.Forms.CheckBox();
             this.file_picker = new System.Windows.Forms.OpenFileDialog();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // name
             // 
             this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name.Location = new System.Drawing.Point(21, 30);
-            this.name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.name.Margin = new System.Windows.Forms.Padding(2);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(233, 32);
             this.name.TabIndex = 1;
@@ -79,7 +84,7 @@
             // 
             this.description.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.description.Location = new System.Drawing.Point(21, 140);
-            this.description.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.description.Margin = new System.Windows.Forms.Padding(2);
             this.description.Name = "description";
             this.description.Size = new System.Drawing.Size(233, 32);
             this.description.TabIndex = 5;
@@ -98,7 +103,7 @@
             // 
             this.creator.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.creator.Location = new System.Drawing.Point(21, 192);
-            this.creator.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.creator.Margin = new System.Windows.Forms.Padding(2);
             this.creator.Name = "creator";
             this.creator.Size = new System.Drawing.Size(233, 32);
             this.creator.TabIndex = 7;
@@ -109,7 +114,7 @@
             this.create_plugin.BackColor = System.Drawing.Color.White;
             this.create_plugin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.create_plugin.Location = new System.Drawing.Point(21, 224);
-            this.create_plugin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.create_plugin.Margin = new System.Windows.Forms.Padding(2);
             this.create_plugin.Name = "create_plugin";
             this.create_plugin.Size = new System.Drawing.Size(231, 41);
             this.create_plugin.TabIndex = 8;
@@ -131,7 +136,7 @@
             // 
             this.name_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_text.Location = new System.Drawing.Point(21, 85);
-            this.name_text.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.name_text.Margin = new System.Windows.Forms.Padding(2);
             this.name_text.Name = "name_text";
             this.name_text.Size = new System.Drawing.Size(233, 32);
             this.name_text.TabIndex = 3;
@@ -142,10 +147,11 @@
             this.groupBox1.Controls.Add(this.panel_icon);
             this.groupBox1.Controls.Add(this.SidePanel);
             this.groupBox1.Controls.Add(this.overlay);
+            this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Location = new System.Drawing.Point(257, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(195, 250);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
@@ -155,7 +161,7 @@
             // 
             this.overlaypanel.AutoSize = true;
             this.overlaypanel.Location = new System.Drawing.Point(16, 53);
-            this.overlaypanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.overlaypanel.Margin = new System.Windows.Forms.Padding(2);
             this.overlaypanel.Name = "overlaypanel";
             this.overlaypanel.Size = new System.Drawing.Size(89, 17);
             this.overlaypanel.TabIndex = 3;
@@ -167,7 +173,7 @@
             this.panel_icon.BackColor = System.Drawing.Color.Red;
             this.panel_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.panel_icon.Location = new System.Drawing.Point(16, 104);
-            this.panel_icon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_icon.Margin = new System.Windows.Forms.Padding(2);
             this.panel_icon.Name = "panel_icon";
             this.panel_icon.Size = new System.Drawing.Size(175, 25);
             this.panel_icon.TabIndex = 2;
@@ -179,7 +185,7 @@
             // 
             this.SidePanel.AutoSize = true;
             this.SidePanel.Location = new System.Drawing.Point(16, 83);
-            this.SidePanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SidePanel.Margin = new System.Windows.Forms.Padding(2);
             this.SidePanel.Name = "SidePanel";
             this.SidePanel.Size = new System.Drawing.Size(112, 17);
             this.SidePanel.TabIndex = 1;
@@ -190,12 +196,56 @@
             // 
             this.overlay.AutoSize = true;
             this.overlay.Location = new System.Drawing.Point(16, 25);
-            this.overlay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.overlay.Margin = new System.Windows.Forms.Padding(2);
             this.overlay.Name = "overlay";
             this.overlay.Size = new System.Drawing.Size(62, 17);
             this.overlay.TabIndex = 0;
             this.overlay.Text = "Overlay";
             this.overlay.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.utils);
+            this.groupBox2.Controls.Add(this.config_start_button);
+            this.groupBox2.Controls.Add(this.task_system);
+            this.groupBox2.Location = new System.Drawing.Point(0, 145);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(195, 105);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Special Addons";
+            this.groupBox2.Visible = false;
+            // 
+            // utils
+            // 
+            this.utils.AutoSize = true;
+            this.utils.Location = new System.Drawing.Point(16, 63);
+            this.utils.Name = "utils";
+            this.utils.Size = new System.Drawing.Size(93, 17);
+            this.utils.TabIndex = 6;
+            this.utils.Text = "Add ImNoUtils";
+            this.utils.UseVisualStyleBackColor = true;
+            // 
+            // config_start_button
+            // 
+            this.config_start_button.AutoSize = true;
+            this.config_start_button.Location = new System.Drawing.Point(16, 40);
+            this.config_start_button.Name = "config_start_button";
+            this.config_start_button.Size = new System.Drawing.Size(124, 17);
+            this.config_start_button.TabIndex = 5;
+            this.config_start_button.Text = "Start button in config";
+            this.config_start_button.UseVisualStyleBackColor = true;
+            // 
+            // task_system
+            // 
+            this.task_system.AutoSize = true;
+            this.task_system.Location = new System.Drawing.Point(16, 18);
+            this.task_system.Margin = new System.Windows.Forms.Padding(2);
+            this.task_system.Name = "task_system";
+            this.task_system.Size = new System.Drawing.Size(87, 17);
+            this.task_system.TabIndex = 4;
+            this.task_system.Text = "Task System";
+            this.task_system.UseVisualStyleBackColor = true;
             // 
             // file_picker
             // 
@@ -216,12 +266,14 @@
             this.Controls.Add(this.description);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.name);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main";
             this.ShowIcon = false;
             this.Text = "Plugin Creator - By ImNo";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,6 +296,10 @@
         private System.Windows.Forms.Button panel_icon;
         private System.Windows.Forms.OpenFileDialog file_picker;
         private System.Windows.Forms.CheckBox overlaypanel;
+        private System.Windows.Forms.CheckBox task_system;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.CheckBox config_start_button;
+        private System.Windows.Forms.CheckBox utils;
     }
 }
 
