@@ -2,4 +2,4 @@
 A tool to create empty plugins for easy development.
 
 Usefull for OpenOSRS
-Join our discord: https://discord.com/invite/6MwVqJu
+Join our discord: https://discord.gg/Pn735axzPP
